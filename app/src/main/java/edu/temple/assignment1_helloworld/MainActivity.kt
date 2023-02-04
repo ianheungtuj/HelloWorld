@@ -10,6 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val textView = findViewById<TextView>(R.id.textview)
-        findViewById<View>(R.id.button).setOnClickListener{textView.text = "@string/button_clicked_text"}
+        findViewById<View>(R.id.button).setOnClickListener{textView.text = "Clicked!"}
     }
 }
